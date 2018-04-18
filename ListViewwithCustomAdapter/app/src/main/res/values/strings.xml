@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Top 10 Movies</string>
+
+    <string-array name="movie_titles">
+        <item>Batman Begins</item>
+        <item>The Dark Night</item>
+        <item>The Dark Knight Rises</item>
+        <item>Batman Verus Superman</item>
+        <item>Batman The movie DC Super Heroes Unite</item>
+        <item>The lego Batman Movie</item>
+        <item>Batman of the Future</item>
+        <item>Batman Returns</item>
+        <item>13 Hours</item>
+        <item>Sicario</item>
+    </string-array>
+    
+    <string-array name="movie_ratings">
+        <item>Rating:1/10</item>
+        <item>Rating:2/10</item>
+        <item>Rating:3/10</item>
+        <item>Rating:4/10</item>
+        <item>Rating:5/10</item>
+        <item>Rating:6/10</item>
+        <item>Rating:7/10</item>
+        <item>Rating:8/10</item>
+        <item>Rating:9/10</item>
+        <item>Rating:10/10</item>
+
+    </string-array>
+</resources>

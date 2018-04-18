@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AutoComplete TextVew</string>
+
+    <string-array name="country_names">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Antarctica</item>
+    </string-array>
+</resources>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">SYNTHETIC CLOUD</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_help">Help</string>
+    <string name="PREF_FILE">APP_PREP_FILE</string>
+    <string name="BACKGROUND_COLOR">APP_BACKGROUND_COLOR</string>
+    <string name="CART_ITEM_1">APP_CART_ITEM_1</string>
+    <string name="CART_ITEM_2">APP_CART_ITEM_2</string>
+    <string name="CART_ITEM_3">APP_CART_ITEM_3</string>
+    <string name="CART_ITEM_4">APP_CART_ITEM_4</string>
+    <string name="CART_ITEM_5">APP_CART_ITEM_5</string>
+    <string name="CART_ITEM_6">APP_CART_ITEM_6</string>
+    <string name="CART_ITEM_1_COST">APP_CART_ITEM_1_COST</string>
+    <string name="CART_ITEM_2_COST">APP_CART_ITEM_2_COST</string>
+    <string name="CART_ITEM_3_COST">APP_CART_ITEM_3_COST</string>
+    <string name="CART_ITEM_4_COST">APP_CART_ITEM_4_COST</string>
+    <string name="CART_ITEM_5_COST">APP_CART_ITEM_5_COST</string>
+    <string name="CART_ITEM_6_COST">APP_CART_ITEM_6_COST</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+
+    <string-array name="product_titles">
+        <item>Aeolus Lite - Fire Engine Red</item>
+        <item>Spectra Box Mod</item>
+        <item>HeavyWeight v2 by Vault Mods</item>
+        <item>Aeolus Lite - Teal</item>
+        <item>Aeolus Lite - Gold</item>
+        <item>G.O.A.T - Strawberry Fire</item>
+
+    </string-array>
+
+    <string-array name="product_costs">
+        <item>$42.00</item>
+        <item>$90.00</item>
+        <item>$95.00</item>
+        <item>$42.00</item>
+        <item>$42.00</item>
+        <item>$20.00</item>
+
+    </string-array>
+
+    <string name="title_red">Red</string>
+    <string name="title_blue">Blue</string>
+    <string name="title_green">Green</string>
+    <string name="title_purple">Purple</string>
+    <string name="title_black">black</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

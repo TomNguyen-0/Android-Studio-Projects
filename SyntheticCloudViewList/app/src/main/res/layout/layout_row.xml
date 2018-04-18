@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="80dp"
+
+    android:id="@+id/relative_row">
+
+    <CheckBox
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:id="@+id/checkbox"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:layout_toRightOf="@+id/checkbox"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:id="@+id/product_image"
+        android:src="@drawable/image_1"
+        />
+
+    <TextView
+        android:layout_width="145dp"
+        android:layout_height="75dp"
+        android:id="@+id/product_label"
+        android:layout_toRightOf="@+id/product_image"
+        android:text="This is the product label"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:id="@+id/product_cost"
+        android:layout_toRightOf="@+id/product_label"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="This is the product cost"
+        android:textColor="#FFFFFF"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/product_image"
+        ></View>
+
+
+
+</RelativeLayout>

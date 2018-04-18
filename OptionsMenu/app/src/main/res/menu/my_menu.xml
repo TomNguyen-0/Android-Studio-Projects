@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:title="@string/title_search"
+        android:id="@+id/title_search"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/search"
+        ></item>
+    <item
+        android:title="@string/title_red"
+        android:id="@+id/title_red"
+        ></item>
+    <item
+        android:title="@string/title_blue"
+        android:id="@+id/title_blue"
+        ></item>
+    <item
+        android:title="@string/title_green"
+        android:id="@+id/title_green"
+        ></item>
+    <item
+        android:title="@string/title_purple"
+        android:id="@+id/title_purple"
+        ></item>
+
+    <item
+        android:id="@+id/title_share"
+        android:title="@string/title_share"
+        android:icon="@drawable/share"
+        app:showAsAction="ifRoom"
+        ></item>
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+
+    <item
+        android:title="@string/title_red"
+        android:id="@+id/title_red"
+
+        ></item>
+    <item
+        android:title="@string/title_blue"
+        android:id="@+id/title_blue"
+
+        ></item>
+    <item
+        android:title="@string/title_green"
+        android:id="@+id/title_green"
+
+        ></item>
+    <item
+        android:title="@string/title_purple"
+        android:id="@+id/title_purple"
+
+        ></item>
+    <item
+        android:title="@string/title_black"
+        android:id="@+id/title_black"
+
+        ></item>
+
+</menu>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:id="@+id/detail_layout"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/image_1"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aeolus Lite - Fire Engine Red \n
+$42.00
+\n
+• Vertical Airflow System \n
+• Anti-Leak System \n
+• PEEK Insulators (649.4°F) \n
+• Unparalleled Flavor \n
+• Wide Range of Airflow Configurations \n
+• Additional Small Airholes for Tighter Draws \n
+• Anti-Spin Square Centerpost \n
+• Large Post Holes \n
+• 18K Gold-Plated Brass Contacts \n
+• Top Cap, Barrel, and AFC: Anodized Aluminum \n
+• 22 mm Diameter
+"
+        android:id="@+id/textView2"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Tablets and Handsets</string>
+
+    <string-array name="news_titles">
+
+        <item>Bank Statement</item>
+        <item>HeadLine 2</item>
+        <item>HeadLine 3</item>
+        <item>HeadLine 4</item>
+        <item>President Obama</item>
+        <item>Louis CK</item>
+        <item>HeadLine 7</item>
+    </string-array>
+
+    <string-array name="news_contents">
+        <item>News Line one ...\n
+        News Line two...\n
+        News Line three...\n
+        News Line four...\n
+        News Line five...\n
+        News Line six...\n
+        News Line seven...\n
+        News Line eight...\n</item>
+        <item>President Obama rips Donald Trump\'s views on using \"radical Islam\"
+         as a betrayal of America\'s values, saying that the use of the
+        phrase \"radical islam\" will only strengthen ISIS\'s and other
+            terrorist groups\' efforts to be viewed as representatives of the
+             entire religion. \n
+Reflect on Twitter http://www.twitter.com/ReflectVideo \n
+Reflect on Facebook http://on.fb.me/1Oi1dbH \n
+        </item>
+        <item>Louie \(Tv Series 2010-\)\n
+            Created by Louis C.K.. With Louis C.K., Hadley Delany, Ursula Parker, Pamela Adlon. The life of Louis CK, a divorced comedian with two kids living in New York.</item>
+        <item></item>
+
+    </string-array>
+    <string name="title_activity_article">ArticleActivity</string>
+</resources>

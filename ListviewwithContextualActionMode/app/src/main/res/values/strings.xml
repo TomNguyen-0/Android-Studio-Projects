@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Listview with Contextual Action Mode</string>
+
+    <string name="title_delete">Delete</string>
+
+    <string-array name="android_versions">
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Eclair</item>
+        <item>Froyo</item>
+        <item>Gingerbread</item>
+        <item>Honeycomb</item>
+        <item>Ice Cream Sandwich</item>
+        <item>Jelly Bean</item>
+        <item>KitKat</item>
+        <item>Lollipop</item>
+
+    </string-array>
+</resources>

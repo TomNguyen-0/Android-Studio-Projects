@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="#A74D4D"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_name"
+        android:hint="Enter Name"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentLeft="true"
+        />
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button"
+        android:text="SEARCH"
+        android:layout_below="@id/search_name"
+        android:layout_alignParentRight="true"
+        android:onClick="searchContact"
+        />
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/display_Mobile"
+        android:textColor="#FFFFFF"
+        android:text="Mobile Here"
+        android:layout_below="@id/Button"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/display_email"
+        android:textColor="#FFFFFF"
+        android:text="Email Here"
+        android:layout_below="@id/display_Mobile"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Contact"
+        android:id="@+id/button"
+        android:layout_below="@+id/display_email"
+        android:layout_marginTop="55dp"
+        android:onClick="deleteContact"
+        android:layout_centerHorizontal="true"
+
+        />
+
+</RelativeLayout>

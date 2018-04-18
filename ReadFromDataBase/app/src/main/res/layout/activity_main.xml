@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.readfromdatabase.MainActivity"
+    android:background="#A74D4D"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD CONTACT"
+        android:id="@+id/button_1"
+        android:layout_marginTop="25dp"
+        android:onClick="addContact"
+        android:layout_below="@+id/app_title"
+        android:background="#CF7F35"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_marginBottom="25dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW CONTACTS"
+        android:id="@+id/button_2"
+        android:layout_below="@+id/button_1"
+        android:background="#CF7F35"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_marginBottom="25dp"
+        android:onClick="viewContact"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH CONTACT"
+        android:id="@+id/button_3"
+        android:layout_below="@+id/button_2"
+        android:background="#CF7F35"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_marginBottom="25dp"
+        android:onClick="searchContact"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE CONTACT"
+        android:id="@+id/button_4"
+        android:layout_below="@+id/button_3"
+        android:background="#CF7F35"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_marginBottom="25dp"
+        android:onClick="updateContact"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE CONTACT"
+        android:id="@+id/button_5"
+        android:layout_below="@+id/button_4"
+        android:layout_alignLeft="@+id/button_4"
+        android:layout_alignStart="@+id/button_4"
+        android:background="#CF7F35"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:onClick="deleteContact"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="My Personal Contacts"
+        android:textColor="#0D00FF"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:id="@+id/app_title"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Sign Out"
+        android:id="@+id/logout_id"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" />
+</RelativeLayout>

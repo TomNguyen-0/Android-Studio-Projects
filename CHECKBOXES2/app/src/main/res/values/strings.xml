@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Check List</string>
+    <string name="title_message">Select Items</string>
+    <string name="apple">Tom</string>
+    <string name="orange">Orange</string>
+    <string name="grapes">Grapes</string>
+    <string name="done">Done</string>
+</resources>

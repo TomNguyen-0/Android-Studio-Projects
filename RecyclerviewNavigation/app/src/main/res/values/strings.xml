@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Recyclerview Navigation</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <string-array name="topics">
+        <item>LIVE</item>
+        <item>My News</item>
+        <item>Most Read</item>
+        <item>Most Watched</item>
+        <item>More Topics</item>
+        <item>Science</item>
+        <item>Technologies</item>
+        <item>Weather</item>
+        <item>World News</item>
+        <item>Entertainment</item>
+        <item>Magazine</item>
+        <item>Cricket</item>
+        <item>Formula 1</item>
+        <item>Football</item>
+        <item>Tennis</item>
+    </string-array>
+</resources>

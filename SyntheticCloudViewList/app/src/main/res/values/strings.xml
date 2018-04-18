@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Synthetic Cloud App</string>
+
+    <string-array name="product_titles">
+        <item>Aeolus Lite - Fire Engine Red</item>
+        <item>Spectra Box Mod</item>
+        <item>HeavyWeight v2 by Vault Mods</item>
+        <item>Aeolus Lite - Teal</item>
+        <item>Aeolus Lite - Gold</item>
+        <item>G.O.A.T - Strawberry Fire</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="product_costs">
+        <item>$42.00</item>
+        <item>$90.00</item>
+        <item>$95.00</item>
+        <item>$42.00</item>
+        <item>$42.00</item>
+        <item>$20.00</item>
+        <item></item>
+    </string-array>
+
+    <string name="title_red">Red</string>
+    <string name="title_blue">Blue</string>
+    <string name="title_green">Green</string>
+    <string name="title_purple">Purple</string>
+    <string name="title_black">black</string>
+</resources>

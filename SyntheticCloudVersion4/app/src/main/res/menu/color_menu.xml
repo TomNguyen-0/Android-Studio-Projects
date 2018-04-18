@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Background Colors">
+            <menu>
+                <item
+                    android:id="@+id/red_id"
+                    android:title="Red"
+                    android:icon="@drawable/red"
+                    ></item>
+                <item
+                    android:id="@+id/blue_id"
+                    android:title="Blue"
+                    android:icon="@drawable/ic_settings_blue_48dp"
+                    ></item>
+                <item
+                    android:id="@+id/green_id"
+                    android:title="Green"
+                    android:icon="@drawable/green"
+                    ></item>
+                <item
+                    android:id="@+id/purple_id"
+                    android:title="Purple"
+                    android:icon="@drawable/purple"
+                    ></item>
+                <item
+                    android:id="@+id/black_id"
+                    android:title="Black"
+                    android:icon="@drawable/black"
+                    ></item>
+            </menu>
+        </item>
+    </group>
+</menu>

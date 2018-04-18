@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Recycleview Header</string>
+
+    <string-array name="country_name">
+        <item>India</item>
+        <item>Australia</item>
+        <item>UAE</item>
+        <item>Thailand</item>
+        <item>Sri Lanka</item>
+        <item>NetherLands</item>
+        <item>New Zealand</item>
+        <item>Malaysia</item>
+    </string-array>
+
+    <string-array name="capital_city">
+        <item>New Delhi</item>
+        <item>Canberra</item>
+        <item>Abu Dhabi</item>
+        <item>Bangkok</item>
+        <item>JayawardenaPura</item>
+        <item>Amsterdam</item>
+        <item>Wellington</item>
+        <item>Kuala Lumpur</item>
+    </string-array>
+
+</resources>

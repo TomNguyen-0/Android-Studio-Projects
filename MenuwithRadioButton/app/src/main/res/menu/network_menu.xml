@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="all"> //add a radio button with each item
+        <item
+            android:id="@+id/id_wifi"
+            android:title="Use Wifi"
+            ></item>
+
+        <item
+            android:id="@+id/id_bluetooth"
+            android:title="Use Bluetooth"
+            ></item>
+
+        <item
+            android:id="@+id/id_mobile_data"
+            android:title="Use Mboile Data"
+            ></item>
+
+        </group>
+
+</menu>
