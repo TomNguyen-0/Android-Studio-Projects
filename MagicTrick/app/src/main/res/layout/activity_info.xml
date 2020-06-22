@@ -12,12 +12,13 @@
     >
 
     <ImageView
-        android:layout_width = "100dp"
-        android:layout_height= "200dp"
+        android:layout_width = "50dp"
+        android:layout_height= "100dp"
         android:id="@+id/imageView"
         android:background="@drawable/info"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 
     <TextView
@@ -28,4 +29,15 @@
         android:id="@+id/textView8"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="QH AS \n AH KH"
+        android:id="@+id/textView7"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="43dp" />
 </RelativeLayout>

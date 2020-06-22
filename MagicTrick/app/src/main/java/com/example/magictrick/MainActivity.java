@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
-        menuInflater.inflate(R.menu.info_menu,menu);
+        menuInflater.inflate(R.menu.info_menu,menu);        //this is where you pick which menu to use from: menu > info_menu.xml
         return true;
     }
     @Override
@@ -64,7 +64,20 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(this, six.class);
                 startActivity(intent);
                 break;
+            case R.id.title_52_cards:
+                intent = new Intent(this, title_52_cards.class);
+                startActivity(intent);
+                break;
+            case R.id.think_of_a_card:      //don't forget to add this to the menu > info_menu.xml
+                intent = new Intent(this, think_of_a_card.class);
+                startActivity(intent);
+                break;
         }
         return true;
+    }
+
+    public void exit_button(View view){
+        Toast.makeText(getApplicationContext(),"Have a nice day!",Toast.LENGTH_LONG).show();
+        finish();
     }
 }

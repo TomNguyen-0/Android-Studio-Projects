@@ -20,9 +20,44 @@
         <activity android:name=".Slide3" />
         <activity android:name=".Slide4" />
         <activity android:name=".Endslide" />
-        <activity android:name=".info" />
         <activity android:name=".six" />
-        <activity android:name=".six_s"></activity>
+        <activity android:name=".six_s" />
+        <activity
+            android:name=".title_52_cards"
+            android:label="@string/title_activity_title_52_cards"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".info"
+            android:label="activity_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".title_52_cards_numbers"
+            android:label="@string/title_activity_title_52_cards_numbers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".title_52_cards_numbers_suit"
+            android:label="@string/title_activity_title_52_cards_numbers_suit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".title_52_cards_numbers_suit_ready"
+            android:label="@string/title_activity_title_52_cards_numbers_suit_ready"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".title_52_cards_numbers_suit_ready_slide"
+            android:label="title_activity_title_52_cards_numbers_suit_ready_slide"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".title_52_cards_numbers_suit_ready_reveal"
+            android:label="@string/title_activity_title_52_cards_numbers_suit_ready_reveal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".think_of_a_card"
+            android:label="@string/title_activity_think_of_a_card"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".think_of_a_card_reveal"
+            android:label="@string/title_activity_think_of_a_card_reveal"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

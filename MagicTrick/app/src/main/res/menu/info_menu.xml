@@ -8,9 +8,19 @@
         android:id="@+id/title_sixDiamonds"
         ></item>
     <item
+        android:title="pick a card"
+        android:id="@+id/title_52_cards"
+        ></item>
+    <item
+        android:title="think of a card"
+        android:id="@+id/think_of_a_card"
+        ></item>
+    <item
         android:title="info"
         android:id="@+id/title_info"
         ></item>
+
+
 
 
 </menu>

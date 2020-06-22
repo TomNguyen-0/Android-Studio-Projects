@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.magictrick.six"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:id="@+id/activity_think_of_a_card_reveal"
+    >
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/image_slide2"
+        android:src="@drawable/c2" />
+    <!--
+    wouldn't be able to use layout_marginBottom with layout_alignParentBottom="true"
+    if android:layout_width isn't set to match_parent instead of wrap_content
+    -->
+<!--
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:text=""
+        android:id="@+id/button4"
+        android:background="#FFFFFF"
+        android:onClick="button_exit"
+        />
+-->
+</RelativeLayout>

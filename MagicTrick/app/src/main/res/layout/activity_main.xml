@@ -42,6 +42,16 @@
         android:layout_centerHorizontal="true"
         android:onClick="button_enter"
         />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="exit"
+        android:textColor="#f44336"
+        android:id="@+id/button2"
+        android:background="#6200ea"
+        android:onClick="exit_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>
